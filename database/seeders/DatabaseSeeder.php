@@ -8,6 +8,6 @@ class DatabaseSeeder extends Seeder
 {
     public function run()
     {
-        \App\Models\Book::factory(10)->create();
+        \App\Models\Book::factory(50)->create();
     }
 }
